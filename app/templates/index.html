@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HALA MADRID</title>
+</head>
+<body>
+<center><img src="http://1nkqlt15lalavuelfljhqjid.wpengine.netdna-cdn.com/wp-content/uploads/2015/07/real-madrid.png" height="250" width="900" ></center>
+<h1 style='text-align: center'>FOOTBALL SCOUTING TOOL</h1>
+
+<form action="/" method="post" style="
+    display:block;
+    text-align:center;
+    border:1px solid;
+    padding:10px;
+    ">
+{% csrf_token %}
+Name: <input type="text" name="name"><br>
+<input type="submit" value="Submit">
+</form>
+
+
+</body>
+</html>
